@@ -1,0 +1,65 @@
+/* .checked-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px;
+    background-color: blue;
+    
+}
+
+.checked-item li {
+    list-style-type: none;
+    margin: 2px 0;
+}
+    
+.checked-item {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .form-check div,h3,p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: blue;
+} */
+
+.checked-item {
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
+    gap: 300px; /* Add some space between the image and the list */
+    padding: 2%;
+    background-color: gray;
+  }
+  
+  .checked-item img {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+  }
+  
+  .checked-item ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .checked-item li {
+    display: flex; /* Ensure the checkbox and label are inline */
+    align-items: center; /* Vertically center align the items */
+    margin-bottom: 10px; /* Add space between list items */
+  }
+  
+  .checked-item input[type="checkbox"] {
+    margin-right: 10px; /* Add space between the checkbox and the label */
+  }
+  
+  .checked-item h3 {
+    margin-bottom: 10px; /* Add space below the heading */
+    text-align: center;
+
+  }
+  
+  .checked-item p {
+    margin-bottom: 20px; /* Add space below the paragraph */
+  }
+  

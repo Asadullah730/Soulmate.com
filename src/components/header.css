@@ -1,0 +1,40 @@
+.image {
+  float: left;
+  min-height: 150px;
+}
+.header {
+  background-color: aquamarine;
+  text-align: center;
+}
+.header h2 {
+  color:darkblue;
+}
+
+.header :first-child div { 
+  float: right;
+  background-color: aquamarine;
+  gap: 10px;
+}
+
+.header :first-child div button {
+  margin-right: 10px;
+  margin-bottom: 0%;
+  border-radius: 0.5pc;
+  background-color: green;
+}
+
+.nav {
+  background-color: red;
+}
+.slider {
+  background-color: aquamarine;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
