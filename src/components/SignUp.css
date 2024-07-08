@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('../image/whiteback.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .form-Container form {
@@ -51,8 +53,8 @@
 }
 
 .usericon {
-    font-size: 150px; /* Increase the size of the icon */
-    margin-bottom: 20px; /* Space below the icon */
+    font-size: 150px; 
+    margin-bottom: 20px;
     align-items: center;
     justify-items: center;
 }
@@ -62,3 +64,158 @@ span {
     font-family: 'Times New Roman', Times, serif;
     font-size: 10pt;
 }
+@media (max-width: 768px) {
+    .SignUp {
+      flex-direction: column;
+    }
+  
+    .form-Container {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    img {
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-Container {
+      padding: 10px;
+    }
+  
+    input, button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+
+
+
+
+
+
+
+
+/* SignUp.css */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.SignUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.form-Container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 3pc;
+  box-shadow: 0 0 10px rgba(20, 20, 20, 20.324);
+  max-width: 500px;
+  width: 100%;
+  margin: 0px;
+}
+
+.form-Container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.usericon {
+  font-size: 50px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #214888;
+}
+
+p {
+  text-align: center;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .SignUp {
+    flex-direction: column;
+  }
+
+  .form-Container {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  img {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-Container {
+    padding: 10px;
+  }
+
+  input, button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+ */

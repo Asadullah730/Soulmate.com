@@ -1,65 +1,142 @@
 /* .checked-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-    padding: 20px;
-    background-color: blue;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color:#9D2B48;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.checked-item h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.checked-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
 }
 
 .checked-item li {
-    list-style-type: none;
-    margin: 2px 0;
+  margin: 10px 0;
 }
-    
-.checked-item {
-    display: flex;
+
+.checked-item .check-box-container {
+  margin-right: 10px;
+}
+
+.checked-item figure {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.checked-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.checked-item figcaption {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+/*@media (max-width: 768px) {
+  .checked-item {
     flex-direction: column;
-} */
-
-/* .form-check div,h3,p{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: blue;
+  }
+
+  .checked-item ul {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .checked-item figure {
+    width: 100%;
+  }
 } */
 
-.checked-item {
-    display: flex;
-    align-items: flex-start; /* Align items to the start */
-    gap: 300px; /* Add some space between the image and the list */
-    padding: 2%;
-    background-color: gray;
-  }
   
-  .checked-item img {
-    flex-shrink: 0; /* Prevent the image from shrinking */
-  }
-  
-  .checked-item ul {
-    list-style: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-  }
-  
-  .checked-item li {
-    display: flex; /* Ensure the checkbox and label are inline */
-    align-items: center; /* Vertically center align the items */
-    margin-bottom: 10px; /* Add space between list items */
-  }
-  
-  .checked-item input[type="checkbox"] {
-    margin-right: 10px; /* Add space between the checkbox and the label */
-  }
-  
-  .checked-item h3 {
-    margin-bottom: 10px; /* Add space below the heading */
-    text-align: center;
 
+/* Rest of your CSS */
+.checked-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 5px;
+  background: url('../image/backimage.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.checked-item h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.checked-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.checked-item li {
+  margin: 10px 0;
+}
+
+.checked-item .check-box-container {
+  margin-right: 10px;
+}
+
+.checked-item figure {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.checked-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.checked-item figcaption {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .checked-item {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .checked-item p {
-    margin-bottom: 20px; /* Add space below the paragraph */
+
+  .checked-item ul {
+    width: 100%;
+    margin-bottom: 20px;
   }
-  
+
+  .checked-item figure {
+    width: 100%;
+  }
+}
+

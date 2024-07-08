@@ -1,5 +1,5 @@
 
-.user-info {
+.requirement {
     padding: 15px;
     border-radius: 2pc;
     border-color: darkblue;
@@ -10,13 +10,7 @@
   h3 {
     text-align: center;
     text-shadow: 3cap;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background-color: #9D2B48;
-    border-radius: 1pc;
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    padding-bottom: 20px;
   }
   
  .form-container {

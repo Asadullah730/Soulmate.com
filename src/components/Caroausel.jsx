@@ -13,7 +13,7 @@ export default function Slider() {
         <div>
           <Carousel className='cro_image'>
               <CarouselItem>
-                  <img src = {m1}  alt = "slide 1"></img>
+                  <img src = {m1} alt = "slide 1"></img>
               </CarouselItem>
               <CarouselItem>
                 <img src = {m3}  alt = "slide 2"></img>

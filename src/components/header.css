@@ -1,31 +1,31 @@
 .image {
   float: left;
-  min-height: 150px;
+  min-height: 100px;
 }
 .header {
-  background-color: aquamarine;
+  width: 100%;
+  background-color: white;
   text-align: center;
+  color : black;
+  background: url('../image/whiteback.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
-.header h2 {
+.name {
   color:darkblue;
 }
 
 .header :first-child div { 
   float: right;
-  background-color: aquamarine;
   gap: 10px;
 }
 
-.header :first-child div button {
+/* .header :first-child div button {
   margin-right: 10px;
   margin-bottom: 0%;
   border-radius: 0.5pc;
-  background-color: green;
-}
+  background-color: black;
+} */
 
-.nav {
-  background-color: red;
-}
 .slider {
   background-color: aquamarine;
 }

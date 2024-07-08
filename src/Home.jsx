@@ -11,7 +11,6 @@ const Home = () =>{
       <div className="App">
         <Header />
       </div>
-      <br />
       <div>
         < Navbar/>
       </div>

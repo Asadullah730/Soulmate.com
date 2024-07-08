@@ -4,7 +4,7 @@ import chahat from "../image/chahat.jpeg";
 export default function Trusted() {
   return (
     <div className="checked-item">
-      <div>
+      <div className="background">
             <ul >
             <h3>The Most Trusted Marriage Bureau in Pakistan</h3>
             <p>
