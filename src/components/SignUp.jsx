@@ -25,7 +25,6 @@ export default function SignUp() {
   } = useForm({ resolver: yupResolver(schema) });
 
   const navigateuserinfo = useNavigate("");
-  const navigateLogin = useNavigate("");
   const onSubmit = (values) => {
     console.log(values);
     navigateuserinfo ("/userinfo")
@@ -43,7 +42,7 @@ export default function SignUp() {
             <IoIosContact />
           </div>
 
-          <h3>Registration Form</h3>
+          <h3 className="signUp-heading">Registration Form</h3>
 
           <br></br>
           <div>
@@ -105,10 +104,10 @@ export default function SignUp() {
           <div>
             
             
-            <p>
+            <p1>
               Are you already have an Account ?
               <Link to="/login">Login Here</Link>
-            </p>
+            </p1>
           </div>
         </form>
       </div>

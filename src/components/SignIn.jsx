@@ -10,9 +10,9 @@ import { yupResolver } from "@hookform/resolvers/yup";
 export default function SignIn() {
 
   const schema = yup.object({
-    email: yup.string().required(),
+    userName : yup.string().required("User Name is Required"),
     password: yup.string().required("Password must be required").min (8, 'Password must be up to eight characters'),
-  })
+  }).required();
 
   const {
     register,
@@ -34,20 +34,20 @@ export default function SignIn() {
           <div className="usericon">
             <IoIosContact />
           </div>
-          <h3>Login Form</h3>
+          <h3 className="signin-Heading">Login Form</h3>
           <br />
           <div>
-            <label htmlFor="gmail">Gmail : </label>
+            <label htmlFor="userName">User Name : </label>
             <br/>
             <input
-              type="email"
-              name="email"
-              placeholder="Enter your Gmail ..."
-              {...register("email", { required: true })}
+              type="text"
+              name="userName"
+              placeholder="Enter The UserName ..."
+              {...register("userName", { required: true })}
             />
             <br />
-            {errors.email && (
-              <span className="field-error">{errors.email.message}</span>
+            {errors.userName && (
+              <span className="field-error">{errors.userName.message}</span>
             )}
           </div>
           <br />
@@ -71,9 +71,9 @@ export default function SignIn() {
           <button type="submit"> SignIn</button>
           
           <div>
-            <p>
+            <p2>
               Are you fresher ?<Link to="/register"> Register Now </Link>
-            </p>
+            </p2>
           </div>
         </form>
       </div>

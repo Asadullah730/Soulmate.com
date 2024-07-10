@@ -36,12 +36,24 @@
     align-items: center;
   } 
 
-  button {
+  .btn-SignUp {
     margin-right: 10px;
     gap: 5px;
     margin-bottom: 0%;
     border-radius: 0.5pc;
-    background-color: #9D2B48;
+    background-color: transparent;
+    border-color: darkblue;
+    color : White;
+  }
+
+
+  .btn-Signin {
+    gap: 5px;
+    margin-bottom: 0%;
+    border-radius: 0.5pc;
+    background-color: transparent;
+    border-color: darkblue;
+    color : White;
   }
 
   .links {

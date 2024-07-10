@@ -21,7 +21,7 @@
 
 .form-Container button {
     background-color: green;
-    color: white;
+    /* color: white; */
     border-radius: 2pc; 
     margin: 10px;
     padding: 5px 70px 5px 70px ; 
@@ -40,6 +40,13 @@
     border-radius: 0.5pc;
 }
 
+.signUp-heading{
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 28pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .SignUp{
     display: flex;
     
@@ -50,6 +57,10 @@
     margin-right: 0px;
     margin-top: 40px;
     border-radius: 2pc; 
+}
+
+p1 {
+  color : darkblue 
 }
 
 .usericon {

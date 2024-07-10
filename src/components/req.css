@@ -13,15 +13,16 @@
     padding-bottom: 20px;
   }
   
- .form-container {
+ .reqForm-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color:#9D2B48;
     padding-left: 0%;
     margin-right: 5px;
     height: 650px;
     image-resolution: 2048px;
-    background-image: url('../image/m2.webp'); 
+    background-image: url('../image/backimage.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: repeat; 

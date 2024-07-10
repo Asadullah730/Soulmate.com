@@ -7,7 +7,7 @@
 
 .form-Container button {
     background-color: green;
-    color: white;
+    /* color: white; */
     border-radius: 2pc; 
     margin: 10px;
     padding: 5px 70px 5px 70px ; 
@@ -25,12 +25,21 @@
     padding-top: 5px;
     border-radius: 0.5pc;
 }
+.signin-Heading{
+    background-color: transparent;
+    font-size: 28pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
 
 .SignIn{
     display: flex;
     
 }
 
+p2{
+    color : darkblue;
+}
 .SignIn img {
     float: right;
     margin-right: auto;

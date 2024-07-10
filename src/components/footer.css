@@ -75,10 +75,13 @@
     text-align: center;
     margin:auto;
     font-style: italic;
-    background-color: #9D2B48;
 
+    background-color: #9D2B48;
   }
-  
+
+  div :first-child p{
+    color : white;
+  }  
   /* Media Queries for Responsiveness */
   @media (max-width: 768px) {
     .footer-container {

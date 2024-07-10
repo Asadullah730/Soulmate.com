@@ -57,7 +57,7 @@ export default function Navbar() {
             </div>
 
             <button
-              class="btn btn-primary"
+              className="btn-SignUp"
               type="button"
               id="btn_reg"
               onClick={() => SignUpNavigite("/register")}
@@ -65,7 +65,7 @@ export default function Navbar() {
               Register Now
             </button>
             <button
-              class="btn btn-primary"
+              className="btn-Signin"
               type="button"
               id="btn_signin"
               onClick={() => signInNavigate("/login")}

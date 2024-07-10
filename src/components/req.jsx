@@ -104,7 +104,7 @@ export default function Req() {
     <>
       <Header />
       <Navbar />
-      <div className="form-container">
+      <div className="reqForm-container">
         <div className="requirement">
           <Form onSubmit={handleSubmit(onSubmit)}>
             <h3 className="heading-container">

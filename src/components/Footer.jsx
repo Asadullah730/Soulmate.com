@@ -14,7 +14,7 @@ export default function Footer() {
             <div className='qoute'>Marriage are Made In Heaven But Celebrated On Earth</div>
             <div className='footer-container'>
                 <div>
-                    <img src={logo} alt = 'Logo' width={200} height={200}/>
+                    <img src={logo} alt = 'Logo' width={130} height={130}/>
                 </div>
 
                 <div className='social-media'>
@@ -48,8 +48,8 @@ export default function Footer() {
             </div>
 
             <div className='hadith'>
-                <span >When a man marries, he has fulfilled half of his religion,
-                so let him fear Allah regarding the remaining half.” (Bukhari) </span>
+                <p>"When a man marries, he has fulfilled half of his religion,
+                so let him fear Allah regarding the remaining half.” (Bukhari) </p>
             </div>
 
             
