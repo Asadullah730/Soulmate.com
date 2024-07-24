@@ -1,0 +1,93 @@
+/* Rest of your CSS */
+.checked-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 5px;
+  background: url('../image/backimage.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.checked-item h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+
+.trusted-heading{
+  background-color: transparent;
+  font-size: 28pt;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.checked-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.checked-item li {
+  margin: 10px 0;
+}
+
+.checked-item .check-box-container {
+  margin-right: 10px;
+}
+
+.checked-item figure {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.checked-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.checked-item figcaption {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-SignUp {
+  margin-left: 200px;
+  margin-top: 20px;
+  padding :5px ;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 5px;
+  margin-bottom: 0%;
+  border-radius: 0.5pc;
+  background-color: #9D2B48;
+  border-color: darkblue;
+  color : white;
+  font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .checked-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checked-item ul {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .checked-item figure {
+    width: 100%;
+  }
+}
+

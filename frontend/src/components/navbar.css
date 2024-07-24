@@ -1,0 +1,35 @@
+
+  img {
+    align-items: center;
+  } 
+  .btn-Signin {
+    margin-left: 200px;
+    margin-top: 2px;
+    padding :5px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0%;
+    border-radius: 0.5pc;
+    background-color: #9D2B48;
+    border-color: darkblue;
+    color : white;
+    font-weight: bold;
+  }
+
+  .links {
+    color: white;
+    text-decoration: none;
+    transition: 0.0s;
+    font-size: large;
+  }
+  .links:active{
+    background-color: #04AA6D;
+    color: white;
+  }
+  .links:hover{
+    border: white;
+    border-style: inset;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
